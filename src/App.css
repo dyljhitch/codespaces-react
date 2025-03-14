@@ -1,31 +1,107 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
-}
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #111;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FF9900; /* Amazon Orange */
+    margin-top: 20px;
+  }
+  
+  .app {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .question-container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .question-container h2 {
+    color: #111;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    margin-right: 20px;
+  }
+  
+  button {
+    background-color: #FF9900; /* Amazon Orange */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #F39C12; /* Hover state with a darker orange */
+  }
+  
+  button:disabled {
+    background-color: #D3D3D3; /* Disabled button color */
+  }
+  
+  .navigation,
+  .submit-button,
+  .start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button button,
+  .start-button button {
+    background-color: #0066CC; /* AWS Blue for the start/submit buttons */
+  }
+  
+  .submit-button button:hover,
+  .start-button button:hover {
+    background-color: #005BB5; /* Darker AWS Blue on hover */
+  }
+  
+  .results {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  .timer {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .start-button button {
+    background-color: #0066CC; /* AWS Blue for the start button */
+    color: white;
+  }
+  
+  .start-button button:hover {
+    background-color: #005BB5; /* Darker AWS Blue on hover */
+  }
+  
